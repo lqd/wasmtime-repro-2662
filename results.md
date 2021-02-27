@@ -45,3 +45,25 @@ Module "./wasm/app-1.46.0.wasm" loaded in 120.6095ms
 Loading module "./wasm/app-nightly.wasm"
 Module "./wasm/app-nightly.wasm" loaded in 142.5472ms
 ```
+
+### OSX 10.12.6 (2011 Macbook AIR, 1,7 GHz Intel Core i5)
+
+- rustc 1.46.0 (04488afe3 2020-08-24)
+
+```
+Loading module "./wasm/app-1.46.0.wasm"
+Module "./wasm/app-1.46.0.wasm" loaded in 535.553255ms
+
+Loading module "./wasm/app-nightly.wasm"
+Module "./wasm/app-nightly.wasm" loaded in 663.681331ms
+```
+
+- rustc 1.52.0-nightly (9c09c1f7c 2021-02-26)
+
+```
+Loading module "./wasm/app-1.46.0.wasm"
+Module "./wasm/app-1.46.0.wasm" loaded in 517.641977ms
+
+Loading module "./wasm/app-nightly.wasm"
+Module "./wasm/app-nightly.wasm" loaded in 571.997925ms
+```
